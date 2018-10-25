@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="stock-uploadfile:war">
+    <output-path>$PROJECT_DIR$/stock-framework/stock-pcweb-multiproject/stock-uploadfile Maven Webapp/target</output-path>
+    <root id="archive" name="stock-uploadfile.war">
+      <element id="artifact" artifact-name="stock-uploadfile:war exploded" />
+    </root>
+  </artifact>
+</component>

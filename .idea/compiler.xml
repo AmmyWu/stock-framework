@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="blsb-pcweb" />
+        <module name="blsb-webapp-base" />
+        <module name="stock-common" />
+        <module name="stock-dao" />
+        <module name="stock-pojo" />
+        <module name="stock-service" />
+        <module name="stock-service-base" />
+        <module name="stock-uploadfile" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="blsb-framework" target="1.8" />
+      <module name="blsb-pcweb" target="1.8" />
+      <module name="blsb-webapp-base" target="1.8" />
+      <module name="stock-base-multiproject" target="1.8" />
+      <module name="stock-common" target="1.8" />
+      <module name="stock-dao" target="1.8" />
+      <module name="stock-pcweb-multiproject" target="1.8" />
+      <module name="stock-pojo" target="1.8" />
+      <module name="stock-service" target="1.8" />
+      <module name="stock-service-base" target="1.8" />
+      <module name="stock-service-multiproject" target="1.8" />
+      <module name="stock-uploadfile" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="blsb-webapp-base:war">
+    <output-path>$PROJECT_DIR$/stock-framework/stock-pcweb-multiproject/stock-webapp-base/target</output-path>
+    <root id="archive" name="blsbWebappBase.war">
+      <element id="artifact" artifact-name="blsb-webapp-base:war exploded" />
+    </root>
+  </artifact>
+</component>

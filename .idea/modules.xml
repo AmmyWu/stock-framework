@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/stock-framework/blsb-framework.iml" filepath="$PROJECT_DIR$/stock-framework/blsb-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stock-framework/stock-pcweb-multiproject/stock-pcweb Maven Webapp/blsb-pcweb.iml" filepath="$PROJECT_DIR$/stock-framework/stock-pcweb-multiproject/stock-pcweb Maven Webapp/blsb-pcweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stock-framework/stock-pcweb-multiproject/stock-webapp-base/blsb-webapp-base.iml" filepath="$PROJECT_DIR$/stock-framework/stock-pcweb-multiproject/stock-webapp-base/blsb-webapp-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stock-framework/stock-base-multiproject/stock-base-multiproject.iml" filepath="$PROJECT_DIR$/stock-framework/stock-base-multiproject/stock-base-multiproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stock-framework/stock-base-multiproject/stock-common/stock-common.iml" filepath="$PROJECT_DIR$/stock-framework/stock-base-multiproject/stock-common/stock-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stock-framework/stock-base-multiproject/stock-dao/stock-dao.iml" filepath="$PROJECT_DIR$/stock-framework/stock-base-multiproject/stock-dao/stock-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stock-framework/stock-pcweb-multiproject/stock-pcweb-multiproject.iml" filepath="$PROJECT_DIR$/stock-framework/stock-pcweb-multiproject/stock-pcweb-multiproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stock-framework/stock-base-multiproject/stock-pojo/stock-pojo.iml" filepath="$PROJECT_DIR$/stock-framework/stock-base-multiproject/stock-pojo/stock-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stock-framework/stock-service-multiproject/stock-service/stock-service.iml" filepath="$PROJECT_DIR$/stock-framework/stock-service-multiproject/stock-service/stock-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stock-framework/stock-service-multiproject/stock-service-base/stock-service-base.iml" filepath="$PROJECT_DIR$/stock-framework/stock-service-multiproject/stock-service-base/stock-service-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stock-framework/stock-service-multiproject/stock-service-multiproject.iml" filepath="$PROJECT_DIR$/stock-framework/stock-service-multiproject/stock-service-multiproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stock-framework/stock-pcweb-multiproject/stock-uploadfile Maven Webapp/stock-uploadfile.iml" filepath="$PROJECT_DIR$/stock-framework/stock-pcweb-multiproject/stock-uploadfile Maven Webapp/stock-uploadfile.iml" />
+    </modules>
+  </component>
+</project>
