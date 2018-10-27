@@ -10,10 +10,12 @@
         <module name="blsb-webapp-base" />
         <module name="stock-common" />
         <module name="stock-dao" />
+        <module name="stock-pcweb" />
         <module name="stock-pojo" />
         <module name="stock-service" />
         <module name="stock-service-base" />
         <module name="stock-uploadfile" />
+        <module name="stock-webapp-base" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,12 +25,15 @@
       <module name="stock-base-multiproject" target="1.8" />
       <module name="stock-common" target="1.8" />
       <module name="stock-dao" target="1.8" />
+      <module name="stock-framework" target="1.8" />
+      <module name="stock-pcweb" target="1.8" />
       <module name="stock-pcweb-multiproject" target="1.8" />
       <module name="stock-pojo" target="1.8" />
       <module name="stock-service" target="1.8" />
       <module name="stock-service-base" target="1.8" />
       <module name="stock-service-multiproject" target="1.8" />
       <module name="stock-uploadfile" target="1.8" />
+      <module name="stock-webapp-base" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
