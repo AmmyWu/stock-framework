@@ -96,7 +96,7 @@
 			<tx:method name="log*" propagation="REQUIRES_NEW" />
 		</tx:attributes>
 	</tx:advice> -->
-	<bean id="aspectForLog" class="com.blsb.webapp.base.log.AspectForLog" />
+	<bean id="aspectForLog" class="com.stock.webapp.base.log.AspectForLog" />
 	<aop:aspectj-autoproxy />
 
 <!-- 	<aop:config>

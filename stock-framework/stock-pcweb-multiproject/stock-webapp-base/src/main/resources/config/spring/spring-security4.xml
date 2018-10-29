@@ -50,7 +50,7 @@
     
     <!-- 自定义权限不足处理程序 -->
 	<beans:bean id="accessDeniedHandler"
-		class="com.blsb.webapp.base.security.MyAccessDeniedHandler">
+		class="com.stock.webapp.base.security.MyAccessDeniedHandler">
 		<beans:property name="errorPage" value="/sysadmin/error.jsp?errorCode=1"></beans:property>
 	</beans:bean>
   
@@ -61,7 +61,7 @@
     
     <!-- 自定义用户资源信息获取 -->
     <beans:bean id="myUserDetailsService"
-		class="com.blsb.webapp.base.security.MyUserDetailService">
+		class="com.stock.webapp.base.security.MyUserDetailService">
 	</beans:bean>
       
     <!-- 被认证请求根据所需权限跳转到不同的登录界面 -->  
@@ -71,17 +71,17 @@
     </beans:bean>  
     
     <!-- 验证成功后操作 -->
-    <beans:bean id="authenticationSuccessHandler" class="com.blsb.webapp.base.security.MySimpleUrlAuthenticationSuccessHandler" />
+    <beans:bean id="authenticationSuccessHandler" class="com.stock.webapp.base.security.MySimpleUrlAuthenticationSuccessHandler" />
 
 	<!-- 验证失败后操作 -->
 	<beans:bean id="authenticationFailureHandler"
-		class="com.blsb.webapp.base.security.MySimpleUrlAuthenticationFailureHandler">
+		class="com.stock.webapp.base.security.MySimpleUrlAuthenticationFailureHandler">
 		<beans:property name="defaultFailureUrl" value="/login.html" />
 	</beans:bean>
 	
 	<!-- 自定义登陆拦截器 -->
 	<beans:bean id="loginFilter"
-		class="com.blsb.webapp.base.security.MyAuthenticationFilter">
+		class="com.stock.webapp.base.security.MyAuthenticationFilter">
 		<beans:property name="authenticationManager" ref="myAuthenticationManager" />
 		<beans:property name="filterProcessesUrl" value="/j_spring_security_check" />
 		 <!-- 认证成功用自定义类authenticationSuccessHandler处理 -->  
@@ -90,13 +90,13 @@
 	</beans:bean>
 	
 	<!-- 自定义拦截器 -->
-	<beans:bean id="securityInterceptor" class="com.blsb.webapp.base.security.MyAuthorizationFilter">  
+	<beans:bean id="securityInterceptor" class="com.stock.webapp.base.security.MyAuthorizationFilter">
         <beans:property name="authenticationManager" ref="myAuthenticationManager"/>  
         <beans:property name="accessDecisionManager" ref="mysecurityAccessDecisionManager"/>  
         <beans:property name="securityMetadataSource" ref="secureResourceFilterInvocationDefinitionSource" />  
     </beans:bean> 
     
-    <beans:bean id="mysecurityAccessDecisionManager" class="com.blsb.webapp.base.security.MyAccessDecisionManager" /> 
+    <beans:bean id="mysecurityAccessDecisionManager" class="com.stock.webapp.base.security.MyAccessDecisionManager" />
 
-	<beans:bean id="secureResourceFilterInvocationDefinitionSource" class="com.blsb.webapp.base.security.MySecurityMetadataSource" />
+	<beans:bean id="secureResourceFilterInvocationDefinitionSource" class="com.stock.webapp.base.security.MySecurityMetadataSource" />
 </beans:beans> 

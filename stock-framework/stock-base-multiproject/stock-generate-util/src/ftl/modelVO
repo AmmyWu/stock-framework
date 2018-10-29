@@ -1,0 +1,15 @@
+package ${packageName};
+
+import ${modelPackageName}.${className};
+
+public class ${className}VO extends ${className} {
+
+	private BaseModelVO baseModel;
+
+	public BaseModelVO getBaseModel() {
+		return baseModel;
+	}
+	public void setBaseModel(BaseModelVO baseModel) {
+		this.baseModel = baseModel;
+	}
+}

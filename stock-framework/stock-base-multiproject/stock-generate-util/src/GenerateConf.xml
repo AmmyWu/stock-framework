@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+    <!-- 模板配置
+            模板文件路径和modelVO、controller、service对应需要的模板名-->
+    <ftl path="\\src\\generate\\ftl">
+        <param name="modelVO">/modelVO.ftl</param>
+        <param name="controller">/controller.ftl</param>
+        <param name="service">/service.ftl</param>
+    </ftl>
+
+    <!-- service.ftl需要的信息
+            path service包路径
+            packageName service中的java文件需要指定包名 -->
+    <service path="stock-dao\\src\\com\\blsb\\service">
+        <servicePackageName>com.blsb.service.drugMonitor</servicePackageName>
+        <modelPackageName>com.blsb.dao.model.drugMonitor</modelPackageName>
+        <parentPackageName>com.blsb</parentPackageName>
+        <class name="DoctorBaseInfo" id ="physicalId"/>
+        <class name="OutpatientRecipeDrugData" id ="physicalId"/>
+        <class name="OutpatientRecipeConsumeData" id ="physicalId"/>
+        <class name="OutpatientMixDrugData" id ="physicalId"/>
+        <class name="InhosRecipeDrugData" id ="physicalId"/>
+        <class name="InhosRecipeConsumeData" id ="physicalId"/>
+        <class name="InhosMixDrugData" id ="physicalId"/>
+        <class name="PharmacistBaseInfo" id ="physicalId"/>
+        <class name="DrugPermit" id ="physicalId"/>
+        <class name="DrugRepositoryInfo" id ="physicalId"/>
+        <class name="DrugMixPermit" id ="physicalId"/>
+        <class name="DrugBaseInfo" id ="physicalId"/>
+        <class name="ConsumeRepositoryInfo" id ="physicalId"/>
+        <class name="ComsumePermit" id ="physicalId"/>
+        <class name="ConsumeBaseInfo" id ="physicalId"/>
+    </service>
+
+
+    <modelVO path="\\src\\com\\blsb\\pojo\\vo">
+        <modelVOPackageName>com.blsb.pojo.vo.drugMonitor</modelVOPackageName>
+        <modelPackageName>com.blsb.dao.model.drugMonitor</modelPackageName>
+        <class name="DoctorBaseInfo" />
+        <class name="OutpatientRecipeDrugData"/>
+        <class name="OutpatientRecipeConsumeData" />
+        <class name="OutpatientMixDrugData" />
+        <class name="InhosRecipeDrugData" />
+        <class name="InhosRecipeConsumeData" />
+        <class name="InhosMixDrugData"/>
+        <class name="PharmacistBaseInfo"/>
+        <class name="DrugPermit"/>
+        <class name="DrugRepositoryInfo"/>
+        <class name="DrugMixPermit"/>
+        <class name="DrugBaseInfo"/>
+        <class name="ConsumeRepositoryInfo"/>
+        <class name="ComsumePermit"/>
+        <class name="ConsumeBaseInfo"/>
+
+    </modelVO>
+    <!-- controller.ftl需要的信息
+            path controller包路径
+            packageName controller中的java文件需要指定包名 -->
+    <controller path="\\src\\com\\blsb\\controller">
+        <controllerPackageName>com.blsb.controller.drugMonitor</controllerPackageName>
+        <modelPackageName>com.blsb.dao.model.drugMonitor</modelPackageName>
+        <parentPackageName>com.blsb</parentPackageName>
+        <class name="DoctorBaseInfo" id ="physicalId"/>
+        <class name="OutpatientRecipeDrugData" id ="physicalId"/>
+        <class name="OutpatientRecipeConsumeData" id ="physicalId"/>
+        <class name="OutpatientMixDrugData" id ="physicalId"/>
+        <class name="InhosRecipeDrugData" id ="physicalId"/>
+        <class name="InhosRecipeConsumeData" id ="physicalId"/>
+        <class name="InhosMixDrugData" id ="physicalId"/>
+        <class name="PharmacistBaseInfo" id ="physicalId"/>
+        <class name="DrugPermit" id ="physicalId"/>
+        <class name="DrugRepositoryInfo" id ="physicalId"/>
+        <class name="DrugMixPermit" id ="physicalId"/>
+        <class name="DrugBaseInfo" id ="physicalId"/>
+        <class name="ConsumeRepositoryInfo" id ="physicalId"/>
+        <class name="ComsumePermit" id ="physicalId"/>
+        <class name="ConsumeBaseInfo" id ="physicalId"/>
+    </controller>
+
+    <!-- model.ftl需要的信息
+            path model包路径
+            packageName model中的java文件需要指定包名
+            class 实体类名
+            field 实体类中的字段
+                fieldName 字段名
+                fieldType 字段类型
+                fieldComment 注释 -->
+    <model path="\\src\\com\\blsb\\dao\\model">
+        <packageName>com.stock.dao.model</packageName>
+        <class>DoctorBaseInfo</class>
+        <class>ConsumeBaseInfo</class>
+        <class>ComsumePermit</class>
+        <class>ConsumeRepositoryInfo</class>
+        <class>DrugBaseInfo</class>
+        <class>DrugMixPermit</class>
+        <class>DrugRepositoryInfo</class>
+        <class>DrugPermit</class>
+        <class>PharmacistBaseInfo</class>
+        <class>InhosMixDrugData</class>
+        <class>InhosRecipeConsumeData</class>
+        <class>InhosRecipeDrugData</class>
+        <class>OutpatientMixDrugData</class>
+        <class>OutpatientRecipeConsumeData</class>
+        <class>OutpatientRecipeDrugData</class>
+    </model>
+</root>

@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="blsb-pcweb:war">
-    <output-path>$PROJECT_DIR$/stock-framework/stock-pcweb-multiproject/stock-pcweb Maven Webapp/target</output-path>
-    <root id="archive" name="stock-pcweb.war">
-      <element id="artifact" artifact-name="blsb-pcweb:war exploded" />
-    </root>
-  </artifact>
-</component>

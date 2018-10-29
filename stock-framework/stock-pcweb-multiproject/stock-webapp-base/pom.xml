@@ -199,6 +199,14 @@
 			<version> 3.2.4.RELEASE  </version>
 			<scope>provided</scope>
 		</dependency>
+        <dependency>
+            <groupId>com.stock</groupId>
+            <artifactId>stock-service-base</artifactId>
+        </dependency>
+		<dependency>
+			<groupId>com.stock</groupId>
+			<artifactId>stock-service-base</artifactId>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>blsbWebappBase</finalName>
